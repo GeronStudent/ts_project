@@ -1,0 +1,17 @@
+{
+  "name": "Karabas",
+  "version": "1.2.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "yarn build && node public/bundle.js"
+  },
+  "main": "index.js",
+  "author": "Elena",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.5.7",
+    "typescript": "5.9.3",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2"
+  }
+}

@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Привет, я файл geron.ts")})();
